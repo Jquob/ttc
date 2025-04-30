@@ -1,0 +1,25 @@
+{
+  "name": "org.jacoborr.ttc",
+  "displayName": "My-TTC UI",
+  "version": "1.2.0",
+  "description": "A simple ui for the myttc api",
+  "main": "www/index.html",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^14.0.0",
+    "cordova-electron": "^4.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "electron"
+    ]
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}

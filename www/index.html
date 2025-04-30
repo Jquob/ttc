@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://https://via.placeholder.com/16x16.png" type="image/png">
+</head>
+
+<body class="bg-gray-100 p-3">
+    <div id="app">
+        <header class="p-2 bg-red-600 text-center rounded-xl max-w-8xl">
+            <a class="text-white text-4xl font-bold" href="index.html" id="header">My-TTC UI</a>
+        </header>
+
+        <div class="rounded-xl border-2 border-gray-300 shadow-sm m-auto mt-3 max-w-6xl p-3 bg-gray-50">
+
+            <form class="bg-gray-100 w-full flex gap-x-2 border-1 border-gray-300 rounded-t-xl rounded-b-sm mb-0.5" id="form">
+                <input type="text" placeholder="stop/station/route" class="rounded-l-sm p-2 flex-grow sm:w-32 w-full text-xl overflow-auto outline-none" id="search">
+                <input type="submit" value="Search" class="bg-red-600 text-white px-4 py-2 rounded-md m-2 hover:bg-red-700">
+            </form>
+
+            <div class="flex flex-col border-gray-300 border-2 rounded-b-md rounded-t-sm" id="results">
+                <h5 class="text-center text-xl font-normal text-gray-700">Search to get results</h5>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
