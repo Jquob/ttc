@@ -1,0 +1,16 @@
+{
+  "electron": {
+    "linux": {
+      "package": [
+        "tar.gz",
+        "AppImage"
+      ]
+    },
+    "windows": {
+      "package": [
+        "zip",
+        "msi"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.jacoborr.ttc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>My-TTC UI</name>
+    <description>UI for the My-TTC API, built with jquery-4 and tailwind-css</description>
+    <author email="dev@cordova.apache.org" href="https://jacoborr.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="electron">
+        <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+    </platform>
+</widget>
+
+

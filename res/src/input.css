@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@tailwind utilities;
+
+.slightbg {
+  background-color: #272727;
+}
+
+.heavybg {
+  background-color: #202020;
+}
+
+.lightbg {
+  background-color: #282828;
+}
+.bg-neutral-650 {
+  background-color: #494949; /* Exact midpoint between neutral-700 (#404040) and neutral-600 (#525252) */
+}
+
+.bg-neutral-750 {
+  background-color: #333333; /* Exact midpoint between neutral-800 (#262626) and neutral-700 (#404040) */
+}
+
+/* Removing responsive text classes as we're using truncate instead */
