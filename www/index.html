@@ -5,12 +5,16 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="https://https://via.placeholder.com/16x16.png" type="image/png">
-    <link rel="stylesheet" href="../node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="icon" href="https://via.placeholder.com/16x16.png" type="image/png">
+    <link rel="stylesheet" href="./lib/uicons-bold-rounded.css">
 </head>
-<body class="heavybg p-3 justify-center items-center flex flex-col p-7" style="max-height: 100vh">
+<body class="heavybg justify-center items-center flex flex-col p-7" style="max-height: 100vh">
 
-<h1 class="text-white text-5xl font-bold mb-7 mt-60" href="index.html" id="header">My-TTC UI</h1>
+<button id="backButton" class="fixed top-3 left-3 bg-neutral-700 text-white rounded-full p-2 hover:bg-red-500 cursor-pointer flex items-center justify-center w-10 h-10 hidden">
+    <i class="fi fi-br-angle-left text-lg leading-none"></i>
+</button>
+
+<a class="text-white text-5xl font-bold mb-7 text-center" href="index.html" id="header" style="margin-top: 30vh">My-TTC UI</a>
 
 <form class="slightbg flex gap-x-2 border-1 border-neutral-700 rounded-4xl mb-0.5 w-full max-w-2xl p-0.5 flex flex-row justify-content-center align-middle" id="form" autocomplete="off">
     <i class="fi fi-br-search text-white text-xl text-center mt-3.75 ml-2"></i>
@@ -18,7 +22,7 @@
     <input type="submit" value="Search" class="bg-neutral-600 text-white px-4 py-2 rounded-4xl m-2 hover:bg-red-500 p-2 text-sm cursor-pointer">
 </form>
 
-<div class="flex flex-col rounded-2xl w-full max-w-2xl overflow-scroll mt-5" id="results" style="max-height: 73vh"></div>
+<div class="flex flex-col rounded-2xl w-full max-w-2xl overflow-auto mt-5" id="results" style="max-height: 80vh"></div>
 
 <script src="./lib/jquery.min.js"></script>
 <script src="./script.js"></script>
