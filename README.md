@@ -31,4 +31,5 @@ Developers:
   - Toronto Open Data Program
   - Flaticons
 
-# Special Thanks to @Kaamkiya
+# Special Thanks to
+@Kaamkiya for helping check my code for errors and user testing!
