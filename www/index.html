@@ -10,11 +10,7 @@
 </head>
 <body class="heavybg justify-center items-center flex flex-col p-7" style="max-height: 100vh">
 
-<button id="backButton" class="fixed top-3 left-3 bg-neutral-700 text-white rounded-full p-2 hover:bg-red-500 cursor-pointer flex items-center justify-center w-10 h-10 hidden">
-    <i class="fi fi-br-angle-left text-lg leading-none"></i>
-</button>
-
-<a class="text-white text-5xl font-bold mb-7 text-center" href="index.html" id="header" style="margin-top: 30vh">My-TTC UI</a>
+<a class="text-white text-5xl font-bold mb-7 text-center" href="#" onClick="resetToHome(); return false;" id="header" style="margin-top: 30vh">My-TTC UI</a>
 
 <form class="slightbg flex gap-x-2 border-1 border-neutral-700 rounded-4xl mb-0.5 w-full max-w-2xl p-0.5 flex flex-row justify-content-center align-middle" id="form" autocomplete="off">
     <i class="fi fi-br-search text-white text-xl text-center mt-3.75 ml-2"></i>
@@ -26,5 +22,19 @@
 
 <script src="./lib/jquery.min.js"></script>
 <script src="./script.js"></script>
+<script>
+    function resetToHome() {
+        $("#search").val("");
+        $("#header").animate({marginTop: '30vh'}, 150);
+        if($("#header").text() != "My-TTC UI") {
+            $("#header").fadeOut(150, function () {
+                $(this).text("My-TTC UI");
+                $(this).fadeIn(150);
+            });
+        }
+        $("#results").fadeOut(150);
+        history.pushState({}, "My-TTC UI", window.location.pathname);
+    }
+</script>
 </body>
 </html>
