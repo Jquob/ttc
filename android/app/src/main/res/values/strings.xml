@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">My-TTC UI</string>
+    <string name="title_activity_main">My-TTC UI</string>
+    <string name="package_name">org.jacoborr.ttc</string>
+    <string name="custom_url_scheme">org.jacoborr.ttc</string>
+</resources>
