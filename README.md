@@ -3,11 +3,9 @@
 My-TTC UI is a simple and clean ui developed for the My-TTC ui system hosted at [myttc.ca](https://myttc.ca/)
 I made the UI both out of a need for a modern way to check when my bus would come without using massive amounts of mobile data, and as a school project!
 ## Supported Platforms
-  - Linux
-  - Windows
-  - Android
-  - Web
-  - Mac/IOS (as a webapp, native support might come later)
+- web
+- android
+- windows/linux (not actively maintained)
 ## Development details
 The UI uses JQuery-4.0 (beta), i chose JQuery because its what i know best!
 I chose Tailwindcss for the styling just to simplify the coding and make it responsive easier.
