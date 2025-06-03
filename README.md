@@ -1,4 +1,7 @@
 # My-TTC UI
+# WARNINGS
+## - this project is currently unmaintained
+### - cors.jacoborr.org a nessescary proxy will be down for the forseeable future
 ## Description
 My-TTC UI is a simple and clean ui developed for the My-TTC ui system hosted at [myttc.ca](https://myttc.ca/)
 I made the UI both out of a need for a modern way to check when my bus would come without using massive amounts of mobile data, and as a school project!
