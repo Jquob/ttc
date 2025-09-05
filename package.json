@@ -4,31 +4,15 @@
   "version": "1.2.0",
   "description": "A simple ui for the myttc api",
   "main": "www/index.html",
-  "keywords": [
-    "ecosystem:cordova"
-  ],
   "scripts": {
     "cors": "node node_modules/cors-anywhere/server.js"
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-android": "^14.0.0",
-    "cordova-electron": "^4.0.0"
-  },
-  "cordova": {
-    "platforms": [
-      "android",
-      "electron"
-    ]
+        "@tailwindcss/cli": "^4.1.4"
   },
   "dependencies": {
-    "@capacitor/android": "^7.2.0",
-    "@capacitor/cli": "^7.2.0",
-    "@capacitor/core": "^7.2.0",
-    "@capacitor/ios": "^7.2.0",
     "@flaticon/flaticon-uicons": "^3.3.1",
-    "@tailwindcss/cli": "^4.1.4",
-    "cors-anywhere": "^0.4.4",
     "tailwindcss": "^4.1.4"
   }
 }
